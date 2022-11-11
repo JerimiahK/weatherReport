@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-image: linear-gradient(to left, rgba(123, 6, 123, 0.983), rgb(41, 92, 233) 75%);
+}
+
+.world-icon {
+    position: relative;
+    left: 40px;
+    color: white;
+    font-size: 66px;
+}
+
+#header-text {
+    position: relative;
+    left: 600px;
+    color: rgb(244, 244, 247);
+    font-weight: bolder;
+    font-size: 300%;
+}
