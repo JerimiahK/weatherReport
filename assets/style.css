@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
 }
 
 #header {
@@ -10,17 +16,13 @@
 }
 
 .world-icon {
-    position: relative;
-    left: 40px;
     color: white;
     font-size: 66px;
 }
 
 #header-text {
-    position: relative;
-    left: 600px;
     color: rgb(244, 244, 247);
-    font-weight: bolder;
+    font-weight: 400;
     font-size: 3rem;
 }
 
@@ -40,4 +42,17 @@
     border: solid black;
     height: 300px;
 
+}
+
+#forecast-text {
+    position: relative;
+    left: 353px;
+    top: 45px;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+#date1 {
+    font-size: 300%;
+    font-weight: bolder;
 }
