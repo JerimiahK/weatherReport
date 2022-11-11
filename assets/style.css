@@ -5,6 +5,7 @@
 }
 
 #header {
+    max-width: 100vw;
     background-image: linear-gradient(to left, rgba(123, 6, 123, 0.983), rgb(41, 92, 233) 75%);
 }
 
@@ -20,5 +21,23 @@
     left: 600px;
     color: rgb(244, 244, 247);
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 3rem;
+}
+
+#search-bar {
+    position: relative;
+    top: 30px;
+}
+
+.button {
+    position: relative;
+    border-radius: 10px;
+}
+
+#current-forecast {
+    position: relative;
+    top: 30px;
+    border: solid black;
+    height: 300px;
+
 }
