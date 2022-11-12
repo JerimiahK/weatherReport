@@ -14,7 +14,7 @@ body {
 
 #header {
     max-width: 100vw;
-    background-image: linear-gradient(to left, rgba(123, 6, 123, 0.983), rgb(41, 92, 233) 75%);
+    background-image: linear-gradient(to left, #7a057afb, rgb(41, 92, 233) 75%);
 }
 
 .world-icon {
@@ -37,6 +37,7 @@ body {
 }
 
 #forecast-text {
+    position: relative;
     margin-left: 348px;
     text-align: center;
     max-height: fit-content;
@@ -57,7 +58,46 @@ body {
     color: #ffffff;
     background-color: rgb(51, 49, 49);
     border: solid 5px black;
-    width: 175px;
+    width: 200px;
     height: 350px;
     margin: 10px;
+}
+
+#history {
+    position: relative;
+    bottom: 190px;
+    margin: 10px;
+    height: fit-content;
+    width: 22%;
+    color: #ffffff;
+    background-color: rgb(51, 49, 49);
+    border: solid 5px black;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background-color: #7a057afb;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+}
+
+@media screen and (max-width: 650px) {
+    #current-forecast {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #history {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 614px) {
+    #history {
+        width: 18%;
+        bottom: 160px;
+    }
 }

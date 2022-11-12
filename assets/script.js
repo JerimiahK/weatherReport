@@ -10,6 +10,7 @@ let iconURL = "";
 let temp = "";
 let wind = "";
 let humidity = "";
+let histButton = "";
 
 searchButton.on("click", function () {
   let userSearch = citySearch.val();
@@ -37,6 +38,9 @@ searchButton.on("click", function () {
         temp = res.list[0].main.temp_max;
         wind = res.list[0].wind.speed;
         humidity = res.list[0].main.humidity;
+        histButton = $("<button>").text(city);
+        histButton.addClass("button");
+        $("#history").append(histButton);
         $("#date1").text(city + " " + "(" + date + ")");
         $("#wicon").attr("src", iconURL);
         $("#temp1").text("Temp: " + temp + "°F");

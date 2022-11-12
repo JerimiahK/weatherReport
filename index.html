@@ -16,7 +16,7 @@
 
 <body>
     <!-- Header -->
-        <nav class="container-fluid navbar navbar-expand-lg d-flex justify-content-between" id="header">
+    <nav class="container-fluid navbar navbar-expand-lg d-flex justify-content-between" id="header">
         <span class="material-symbols-outlined world-icon">
             public
         </span>
@@ -25,8 +25,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             </div>
         </div>
-        </nav>
-        <div class="row w-100 pb-4 pt-4">
+    </nav>
+    <!-- Body Content -->
+    <div class="row w-100 pt-4">
             <!-- User Search Bar -->
             <div class="input-group mb-3 col-lg-3 w-25 h-25 p-4" id="search-bar">
                 <input type="text" placeholder="Search Here" class="form-control" id="city-search"
@@ -34,7 +35,7 @@
                 <button id="search-button" type="button" class="btn btn-primary w-100" style="border-radius: 10px">Search City</button>
             </div>
             <!-- Current Forecast -->
-            <div class="col-lg-8 d-flex justify-content-between flex-column" id="current-forecast">
+            <div class="col-lg-8 col-sm-9 d-flex justify-content-between flex-column" id="current-forecast">
                 <div class="d-flex">
                     <h1 id="date1"></h1>
                     <div id="icon">
@@ -45,14 +46,16 @@
                 <h3 id="wind1"></h3>
                 <h3 id="hum1"></h3>
             </div>
-        </div>
-        
+    </div>
+    <!-- History -->
+    <div id="history" class="button">
+    </div>
         <!-- 5 Day Forecast -->
         <h3 id="forecast-text">5-Day Weather Forecast:</h3>
-        <div class="row w-100 d-flex justify-content-end mx-auto">
-            <!-- <h3 class="col-lg-4" id="forecast-text">5-Day Weather Forecast:</h3> -->
+        <div class="row w-100 d-flex justify-content-end">
+            <!-- <h3 class="col-2" id="forecast-text">5-Day Weather Forecast:</h3> -->
             <!-- Day 1 -->
-            <div class="col-lg-8 d-flex justify-content-between flex-column" id="five-day">
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-between flex-column" id="five-day">
                     <h1 id="date2"></h1>
                     <div id="icon">
                         <img src="" alt="" id="wicon2">
@@ -62,7 +65,7 @@
                 <h3 id="hum2"></h3>
             </div>
             <!-- Day 2 -->
-            <div class="col-lg-8 d-flex justify-content-between flex-column" id="five-day">
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-between flex-column" id="five-day">
                 <h1 id="date3"></h1>
                 <div id="icon">
                     <img src="" alt="" id="wicon3">
@@ -72,7 +75,7 @@
                 <h3 id="hum3"></h3>
             </div>
             <!-- Day 3 -->
-            <div class="col-lg-8 d-flex justify-content-between flex-column" id="five-day">
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-between flex-column" id="five-day">
                 <h1 id="date4"></h1>
                 <div id="icon">
                     <img src="" alt="" id="wicon4">
@@ -82,7 +85,7 @@
                 <h3 id="hum4"></h3>
             </div>
             <!-- Day 4 -->
-            <div class="col-lg-8 d-flex justify-content-between flex-column" id="five-day">
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-between flex-column" id="five-day">
                 <h1 id="date5"></h1>
                 <div id="icon">
                     <img src="" alt="" id="wicon5">
@@ -92,7 +95,7 @@
                 <h3 id="hum5"></h3>
             </div>
             <!-- Day 5 -->
-            <div class="col-lg-8 d-flex justify-content-between flex-column" id="five-day">
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-between flex-column" id="five-day">
                 <h1 id="date6"></h1>
                 <div id="icon">
                     <img src="" alt="" id="wicon6">
