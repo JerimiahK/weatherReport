@@ -15,7 +15,7 @@ let histButton = "";
 searchButton.on("click", function () {
   let userSearch = citySearch.val();
   key = "0faaa42019c798356adf79d4415bbb25";
-  let cityUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${userSearch}&appid=${key}`;
+  let cityUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${userSearch}&appid=${key}`;
   $.ajax({
     url: cityUrl,
   })
