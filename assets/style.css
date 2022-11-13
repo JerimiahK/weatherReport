@@ -1,5 +1,4 @@
 * {
-    max-width: 1400%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,6 +27,19 @@ body {
     font-size: 3rem;
 }
 
+#container1 {
+    height: 350px;
+}
+
+#search-bar {
+    z-index:900;
+}
+
+#current-container {
+    position: relative;
+    bottom: 80px;
+}
+
 #current-forecast {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 49, 49);
@@ -37,10 +49,10 @@ body {
 }
 
 #forecast-text {
-    max-height: fit-content;
-    display: inline-block;
+    margin: 0 600px 0 340px;
+    width: fit-content;
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 275%;
     background-image: linear-gradient(to left, rgba(123, 6, 123, 0.983), rgb(41, 92, 233) 75%);
     color: #ffffff;
 }
@@ -62,7 +74,7 @@ body {
 
 #history {
     position: relative;
-    bottom: 190px;
+    bottom: 274px;
     margin: 10px;
     height: fit-content;
     width: 22%;
