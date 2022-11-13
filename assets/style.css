@@ -51,6 +51,7 @@ body {
 #forecast-text {
     margin: 0 600px 0 340px;
     width: fit-content;
+    height: fit-content;
     font-weight: bolder;
     font-size: 275%;
     background-image: linear-gradient(to left, rgba(123, 6, 123, 0.983), rgb(41, 92, 233) 75%);
