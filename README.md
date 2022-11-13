@@ -8,6 +8,6 @@ This web application was created to provide an accurate and reliable weather for
 
 To use this web application, please follow the deployed link provided below. Using the application is very simple. Just search a city by its name in the search query bar, and click on the "Search City" button. The page will fetch the date, weather icon, temperature, wind speed, and humidity for the current day, as well as the next five days and display the information in its respective box. Your search will display in a search history box, and you can just click on the city you wish to see the weather information for, and the information will be recalled and displayed.
 Link to deployed application:
-
+https://jerimiahk.github.io/weatherReport/
 Screenshot of application in use:
 ![](images/Screen%20Shot%202022-11-13%20at%2012.47.31%20PM.png)
