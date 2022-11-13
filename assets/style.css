@@ -37,9 +37,6 @@ body {
 }
 
 #forecast-text {
-    position: relative;
-    margin-left: 348px;
-    text-align: center;
     max-height: fit-content;
     display: inline-block;
     font-weight: bolder;
@@ -83,15 +80,15 @@ body {
     margin: 5px 0 5px 0;
 }
 
-@media screen and (max-width: 650px) {
-    #current-forecast {
-        width: 70%;
-    }
-}
-
 @media screen and (max-width: 1000px) {
     #history {
         width: 20%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #current-forecast {
+        width: 70%;
     }
 }
 
@@ -99,5 +96,11 @@ body {
     #history {
         width: 18%;
         bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #date1 {
+        font-size: 210%;
     }
 }
