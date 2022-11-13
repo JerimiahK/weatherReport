@@ -93,6 +93,12 @@ body {
     margin: 5px 0 5px 0;
 }
 
+@media screen and (max-width: 1030px) {
+    #forecast-text {
+        margin: 0 10px 0 340px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     #history {
         width: 20%;
